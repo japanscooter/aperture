@@ -365,6 +365,7 @@ header nav ul li:last-of-type a{
   }
 .need_help p{
     text-align: center;
-    color: #FFFFFF;
+    color: crimson;
     background-color: aquamarine;
+    font-size: 15px;
 }
