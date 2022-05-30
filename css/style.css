@@ -363,3 +363,7 @@ header nav ul li:last-of-type a{
     border-radius: 14px;
     margin-right: 6px;
   }
+.need_help p{
+    text-align: center;
+    color: #FFFFFF;
+}
