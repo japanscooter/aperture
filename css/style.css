@@ -369,12 +369,8 @@ header nav ul li:last-of-type a{
     background-color: aquamarine;
     font-size: 15px;
 }
-.need_help P:before{
-    color: crimson;
-    width: 10px;
-    height: 10px;
 
-}
 .need_help h4{
 color: darkorange;
-    }
+    font-size: 22px;
+}
