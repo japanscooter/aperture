@@ -363,14 +363,5 @@ header nav ul li:last-of-type a{
     border-radius: 14px;
     margin-right: 6px;
   }
-.need_help p{
-    text-align: center;
-    color: crimson;
-    background-color: aquamarine;
-    font-size: 15px;
-}
 
-.need_help h4{
-color: darkorange;
-    font-size: 22px;
-}
+
