@@ -1,0 +1,24 @@
+@media only screen and (max-width: 700px) {
+    .past_clients article{
+        flex-direction: column;
+    }
+    .past_clients article a{
+        margin-bottom: 10px;
+    }
+    .past_clients p{
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    header nav ul{
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+.main_banner h1{
+    font-size: 28px;
+}
+}
+
