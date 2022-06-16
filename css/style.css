@@ -21,6 +21,9 @@ header{
     background-color: black;
     padding: 24px 0;
 }
+.logo{
+    position: relative;
+}
 .container{
     max-width: 1168px;
     margin: auto;

@@ -3,16 +3,49 @@
         flex-direction: column;
     }
     .past_clients article a{
-        margin-bottom: 10px;
-    }
-    .past_clients p{
         margin-bottom: 25px;
     }
+    .past_clients p{
+        margin-bottom: 100px;
+    }
+    .fuji{
+        height: 50vh;}
+    .monstera{
+        height: 50vh;
+    }
+    .nepal{
+        height: 50vh;
+    }
+    .need_help{
+        height: 50vh;
+    }
+    .monstera li{
+        display: flex;
+    }
+    .main_banner li{
+        display: flex;
+    }
+    .need_help h2{
+        margin-bottom: 25px;
+    }
+    .need_help h3{
+        margin-bottom: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 670px) {
     header nav ul{
         display: block;
+        margin-right: 10px;
+
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    header nav ul a{
+        margin-bottom: 5px;
+
     }
 
 }
@@ -22,3 +55,11 @@
 }
 }
 
+@media only screen and (max-width: 333px) {
+    .components li:before{
+        margin-right: 5px;
+    }
+    .past_clients p{
+        margin-bottom: 40px;
+    }
+}
