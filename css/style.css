@@ -312,6 +312,7 @@ header nav ul li:last-of-type a{
 .past_clients article{
     width: 100%;
     align-items: center;
+    display: block;
 }
 .past_clients article a{
     max-width: 128px;
