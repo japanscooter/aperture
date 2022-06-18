@@ -17,7 +17,7 @@
         height: 50vh;
     }
     .need_help{
-        height: 50vh;
+        padding-bottom: 50px;
     }
     .monstera li{
         display: flex;
@@ -26,10 +26,10 @@
         display: flex;
     }
     .need_help h2{
-        margin-bottom: 25px;
+        margin-bottom: 70px;
     }
     .need_help h3{
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
 
 }

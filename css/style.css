@@ -290,7 +290,6 @@ header nav ul li:last-of-type a{
     padding-bottom: 120px;
     padding-top: 100px;
     background-color: black;
-    height: 70vh;
     text-align: center;
 
 }
@@ -312,15 +311,20 @@ header nav ul li:last-of-type a{
 }
 .past_clients article{
     width: 100%;
-    justify-content: space-between;
-    max-width: 1168px;
+    align-items: center;
+}
+.past_clients article a{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-stage{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 /*maim banner section*/
 .need_help{
     background-color: black;
-    height: 60vh;
     padding-top: 113px;
     padding-bottom: 108px;
     text-align: center;
@@ -366,5 +370,4 @@ header nav ul li:last-of-type a{
     border-radius: 14px;
     margin-right: 6px;
   }
-
 
