@@ -1,0 +1,43 @@
+@import "style.css";
+@import "menu.css";
+@import "normalize.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap";
+
+
+
+  $main_weight: normal;
+  $main_font: 'poppins';
+  $main_fontstyle: normal;
+  $white_color: #FFFFFF;
+
+
+  header {
+    background-color: black;
+    padding: 24px 0;
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+      }
+
+      li {
+        margin-left: 32px;
+      }
+
+      &:first-of-type {
+        margin-right: 24px;
+      }
+
+      &:last-of-type {
+        margin-left: 31px;
+      }
+    }
+  }
+
+
