@@ -197,15 +197,20 @@
 .nav__list {
     z-index: 2;
     display: flex;
+    width: 810px;
 
 }
 .nav__list-item {
     opacity: 1;
     margin-left: 32px;
+
 }
 
 .nav__list-item:first-of-type{
     margin-right: 24px;
+}
+.nav__list-item:last-of-type{
+
 }
 .nav__list-item:first-of-type a{
     font-size: 13px;

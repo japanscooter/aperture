@@ -122,10 +122,16 @@
         font-size: 25px;
 
 }
-
+    .nav__list-item:first-of-type a{
+        font-size: 25px;
+    }
+    .nav__list-item:last-of-type a{
+        font-size: 25px;
+    }
+}
     @media only screen and (max-width: 375px) {
         .nav__list {
-            margin-top: 80px;
+            margin-top: 100px;
         }
-    }
+
 }
