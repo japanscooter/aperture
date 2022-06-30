@@ -197,7 +197,7 @@
 .nav__list {
     z-index: 2;
     display: flex;
-    width: 810px;
+    width: 680px;
 
 }
 .nav__list-item {
@@ -208,6 +208,7 @@
 
 .nav__list-item:first-of-type{
     margin-right: 24px;
+    margin-left: 0;
 }
 .nav__list-item:last-of-type{
 

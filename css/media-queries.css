@@ -77,15 +77,13 @@
         display: inline-block;
     }
 
-    .nav {
-        position: fixed;
-    }
 
     .nav__content {
         position: fixed;
         visibility: hidden;
         -webkit-transform: translate(0%, -50%);
         transform: translate(0%, -50%);
+
     }
 
     .nav__list-item {
@@ -93,18 +91,12 @@
         font-size: 25px;
     }
 
-    .nav__list {
-        display: block;
-    }
 
     .logo-wrap {
         top: 10px;
     }
 
-    header .nav li {
-        margin-bottom: 30px;
-       margin-left: 10px;
-    }
+
     .nav__list-item a{
         font-weight: 400;
         position: relative;
